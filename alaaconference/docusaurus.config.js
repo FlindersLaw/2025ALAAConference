@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '2025 Australasian Law Academics Association (ALAA) Conference',
-  tagline: '2 - 4 July 2024',
+  tagline: '2 - 4 July 2025',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

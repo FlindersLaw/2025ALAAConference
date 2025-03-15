@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`2024 ALAA Conference`}
+      title={`2025 ALAA Conference`}
       description="Australasian Legal Academics Association Conference 2025 <head />">
       <HomepageHeader />
       <CFPButton />
