@@ -74,6 +74,11 @@ const config = {
             position: 'left'
           },
           {
+            label: 'Call for Papers',
+            to: '/call_for_papers',
+            position: 'left',
+          },
+          {
             label: 'Accommodation',
             to: '/accommodation',
             position: 'left',
@@ -83,11 +88,11 @@ const config = {
             to: '/gala_dinner',
             position: 'left',
           },
-          // {
-          //   label: 'Program and Conference Material',
-          //   to: '/docs',
-          //   position: 'left'
-          // },
+          {
+            label: 'Program and Conference Material',
+            to: '/docs',
+            position: 'left'
+          },
           {
             label: 'FAQ',
             to: '/faq',
@@ -96,7 +101,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://uq.edu.au"><img src="img/uq_logo.png" height="30px"></a>',
+            value: '<a href="https://uq.edu.au"><img src="img/uq_logo3.png" height="30px"></a>',
           }
         ],
       },

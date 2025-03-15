@@ -5,23 +5,20 @@ import './HomepageSponsors.css';
 
 const SponsorLogos = [
   {
-    thumbnail: 'img/sponsor_logos/lexisnexis.jpg',
-  },
-  {
-    thumbnail: 'img/sponsor_logos/cup.png',
-  },
-  {
-    thumbnail: 'img/sponsor_logos/leocussen.jpg',
+    thumbnail: 'img/sponsor_logos/cald.jpg',
   },
   {
     thumbnail: 'img/sponsor_logos/thomsonreuters.png',
   },
   {
-    thumbnail: 'img/sponsor_logos/cald.jpg',
-  },
-  {
-    thumbnail: 'img/sponsor_logos/oup.png',
-  },
+    thumbnail: 'img/sponsor_logos/dentons.png',
+  }
+  // {
+  //   thumbnail: 'img/sponsor_logos/lexisnexis.jpg',
+  // },
+  // {
+  //   thumbnail: 'img/sponsor_logos/cup.png',
+  // },
 ];
 
 function Feature({thumbnail, title, description}) {
@@ -42,10 +39,9 @@ export default function HomepageSponsors() {
           <h1>With Thanks to Our Sponsors</h1>
         </div>
         <div className="row">
-          Sponsor logos can be added here as sponsors come on board.
-          {/* {SponsorLogos.map((props, idx) => (
+          {SponsorLogos.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))} */}
+          ))}
         </div>
       </div>
     </section>

@@ -70,4 +70,19 @@ export function ProgramHeadingButton(props) {
   );
 }
 
+export const CFPButton = () => {
+  return (
+    <div className={styles.buttonContainer}>
+      <a
+        href='/call_for_papers'
+        className={styles.registerButton}
+        rel='noopener noreferrer'
+      >
+        Call for Papers
+      </a>
+    </div>
+  );
+};
+
+
 export default EOIButton;

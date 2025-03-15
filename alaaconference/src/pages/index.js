@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageSponsors from '@site/src/components/HomepageSponsors';
-import {EOIButton, RegisterButton} from '@site/src/components/EOIButton';
+import {CFPButton} from '@site/src/components/EOIButton';
 import RegisterBanner from '@site/src/components/EOIBanner';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -20,7 +20,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           {siteConfig.tagline}
         </p>
-        <img src="img/uq_logo.png" style={{height: '50px'}}></img>
+        <img src="img/uq_logo3.png" style={{height: '50px'}}></img>
       </div>
     </header>
   );
@@ -31,8 +31,9 @@ export default function Home() {
   return (
     <Layout
       title={`2024 ALAA Conference`}
-      description="Australasian Legal Academics Association Conference 2024 <head />">
+      description="Australasian Legal Academics Association Conference 2025 <head />">
       <HomepageHeader />
+      <CFPButton />
       <main>
         <HomepageFeatures />
         <HomepageSponsors />
