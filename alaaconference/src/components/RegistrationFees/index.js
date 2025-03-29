@@ -4,7 +4,6 @@ import styles from './styles.module.css';
 import './RegistrationFees.css';
 import {EOIButton, RegisterButton} from '@site/src/components/EOIButton';
 
-export const PaymentGatewayURL = 'https://pay.flinders.edu.au/BGL024';
 // export const PaymentGatewayURL = '/registration_closed';
 
 const FeeInfoList = [
@@ -55,7 +54,7 @@ const FeeInfoList = [
 const ButtonInfoList = [
   {
     instructions: (
-      <RegisterButton registerURL={PaymentGatewayURL} buttonText='Conference and Gala Dinner Registration' />
+      <RegisterButton buttonText='Conference and Gala Dinner Registration' />
     )
   }
 ];

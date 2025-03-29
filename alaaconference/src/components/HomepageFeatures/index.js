@@ -9,16 +9,16 @@ const FeatureList = [
     thumbnail: 'img/home_page/first_nations_perspectives.jpg',
     description: (
       <>
-        Incorporating First Nations perspectives into legal curricula and research: best practices and challenges.
+        Incorporating First Nations perspectives into legal curricula and research: best practices and challenges
       </>
     ),
   },
   {
-    title: 'Pacific perspectives',
+    title: 'Pacific perspectives and practices',
     thumbnail: 'img/home_page/pacific_perspectives.jpg',
     description: (
       <>
-        How can we incorporate Pacific perspectives on law, justice and legal education into the curriculum?
+        Exploring contemporary challenges of legal research and education across the Pacific
       </>
     ),
   },
@@ -45,16 +45,16 @@ const FeatureList = [
     thumbnail: 'img/home_page/legal_education.jpg',
     description: (
       <>
-        Navigating innovation in legal pedagogy and curriculum design within regulatory constraints.
+        Navigating innovation in legal pedagogy and curriculum design within regulatory constraints
       </>
     ),
   },
   {
-    title: 'Equity, Diversity, and Inclusion',
+    title: 'Challenges to rule of law',
     thumbnail: 'img/home_page/dei.png',
     description: (
       <>
-        Embedding inclusive considerations meaningfully into the legal curriculum.
+        Examining global perspectives on the rule of law and judicial independence
       </>
     ),
   },
@@ -67,11 +67,11 @@ const FeatureList = [
   //   ),
   // },
   {
-    title: 'Social Justice-Oriented Legal Education',
+    title: 'Social Justice-Oriented Education',
     thumbnail: 'img/home_page/ethics.png',
     description: (
       <>
-        How can we develop and ethical and social-justice-oriented legal educaiton curriculum that instils these values into students?
+        How can we develop an ethical and social-justice-oriented legal education curriculum that instils these values into students?
       </>
     ),
   },
@@ -99,7 +99,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="HPHeading">
           <h1>Navigating Tradition and Change</h1>
-          <h2>How can we incorporate contemprary challenges into legal education and scholarship?</h2>
+          <h2>How can we incorporate contemporary challenges into legal education and scholarship?</h2>
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
