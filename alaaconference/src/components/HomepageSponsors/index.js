@@ -12,13 +12,13 @@ const SponsorLogos = [
   },
   {
     thumbnail: 'img/sponsor_logos/dentons.png',
-  }
+  },
   // {
   //   thumbnail: 'img/sponsor_logos/lexisnexis.jpg',
   // },
-  // {
-  //   thumbnail: 'img/sponsor_logos/cup.png',
-  // },
+  {
+    thumbnail: 'img/sponsor_logos/cup.png',
+  },
 ];
 
 function Feature({thumbnail, title, description}) {

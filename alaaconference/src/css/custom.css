@@ -117,6 +117,7 @@ global CSS file.  This was RFHeading */
 .alternating-section .section-image {
   flex: 1 1 30%; /* Adjust based on your image size preference */
   max-width: 30%; /* Keeps image from taking more than 30% of space */
+  align-self: flex-start; /* Aligns the image to the top */
 }
 
 .ProgramDayTitle {
