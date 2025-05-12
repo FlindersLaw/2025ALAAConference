@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageSponsors from '@site/src/components/HomepageSponsors';
-import {CFPButton} from '@site/src/components/EOIButton';
+import {CFPButton, RegisterNowButton} from '@site/src/components/EOIButton';
 import RegisterBanner from '@site/src/components/EOIBanner';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -33,7 +33,7 @@ export default function Home() {
       title={`2025 ALAA Conference`}
       description="Australasian Legal Academics Association Conference 2025 <head />">
       <HomepageHeader />
-      <CFPButton />
+      <RegisterNowButton />
       <main>
         <HomepageFeatures />
         <HomepageSponsors />

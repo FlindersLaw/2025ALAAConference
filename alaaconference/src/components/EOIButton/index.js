@@ -97,5 +97,21 @@ export const CFPButton = () => {
   );
 };
 
+// A buton that looks just like the register button but links to 
+// /registration on this website. The text should be "REGISTER NOW"
+export const RegisterNowButton = () => {
+  return (
+    <div className={styles.buttonContainer}>
+      <a
+        href='/registration'
+        className={styles.registerButton}
+        rel='noopener noreferrer'
+      >
+        REGISTER NOW
+      </a>
+    </div>
+  );
+}
+
 
 export default EOIButton;

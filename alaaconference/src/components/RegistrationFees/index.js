@@ -38,7 +38,8 @@ const FeeInfoList = [
           </tr>
       </table>
       <p>
-        The Gala dinner will be held on the evening of <strong>3&nbsp;July 2025</strong> at the <b><i>Customs House, Brisbane</i></b>.  </p>
+        The Gala Dinner will be held on the evening of <strong>3&nbsp;July 2025</strong> at
+        the <b><i><a href="/gala_dinner">Customs House, Brisbane</a></i></b>.  </p>
       <p>
         If you have not yet registered for the 
         Gala Dinner please register below.
