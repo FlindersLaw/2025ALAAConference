@@ -89,8 +89,8 @@ const config = {
             position: 'left',
           },
           {
-            label: 'Program and Conference Material',
-            to: '/docs',
+            label: 'Conference Program',
+            to: '/program',
             position: 'left'
           },
           {
