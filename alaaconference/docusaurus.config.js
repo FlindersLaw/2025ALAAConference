@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '2025 Australasian Law Academics Association (ALAA) Conference',
-  tagline: '2 - 2 July 2024',
+  tagline: '2 - 4 July 2025',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,85 +68,85 @@ const config = {
         },
         hideOnScroll: true,
         items: [
-          // {
-          //   label: 'Registration',
-          //   to: '/registration',
-          //   position: 'left'
-          // },
-          // {
-          //   label: 'Accommodation',
-          //   to: '/accommodation',
-          //   position: 'left',
-          // },
-          // {
-          //   label: 'Flinders New City Campus',
-          //   to: '/flinders_ncc',
-          //   position: 'left',
-          // },
-          // {
-          //   label: 'Gala Dinner',
-          //   to: '/gala_dinner',
-          //   position: 'left',
-          // },
-          // {
-          //   label: 'Program and Conference Material',
-          //   to: '/docs',
-          //   position: 'left'
-          // },
-          // {
-          //   label: 'FAQ',
-          //   to: '/faq',
-          //   position: 'left',
-          // },
-          // {
-          //   type: 'html',
-          //   position: 'right',
-          //   value: '<a href="https://flinders.edu.au"><img src="img/Flinders_University_Logo_Horizontal_RGB_Master.png" height="30px"></a>',
-          // }
+          {
+            label: 'Registration',
+            to: '/registration',
+            position: 'left'
+          },
+          {
+            label: 'Call for Papers',
+            to: '/call_for_papers',
+            position: 'left',
+          },
+          {
+            label: 'Accommodation',
+            to: '/accommodation',
+            position: 'left',
+          },
+          {
+            label: 'Gala Dinner',
+            to: '/gala_dinner',
+            position: 'left',
+          },
+          {
+            label: 'Conference Program',
+            to: '/program',
+            position: 'left'
+          },
+          {
+            label: 'FAQ',
+            to: '/faq',
+            position: 'left',
+          },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<a href="https://uq.edu.au"><img src="img/uq_logo3.png" height="30px"></a>',
+          }
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'About Flinders University',
-          //   items: [
-          //     {
-          //       label: 'Our New City Campus',
-          //       href: 'https://www.flinders.edu.au/campus/festival-plaza',
-          //     },
-          //     {
-          //       label: 'College of Business, Government and Law',
-          //       href: 'https://flinders.edu.au/cbgl',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Conference hosted by Flinders Law',
-          //   items: [
-          //     {
-          //       // Hard push from the left to manually align under title
-          //       html: '<div style="margin-left: 57px; margin-top: 40px;"><img src="img/Flinders_University_Logo_Horizontal_RGB_Stroked.png" style="height: 50px"></div>',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Contact',
-          //   items: [
-          //     {
-          //       label: 'Contact ALAA',
-          //       href: 'mailto:admin@alaa.asn.au',
-          //     },
-          //     {
-          //       label: 'Contact Flinders Law',
-          //       href: 'mailto:bglenquiries@flinders.edu.au',
-          //     },
-          //     {
-          //       label: 'Contact the Conference Project Team',
-          //       href: 'mailto:0cb050e2.FLINDERS.onmicrosoft.com@au.teams.ms',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'About UQ',
+            items: [
+              {
+                label: 'UQ Homepage',
+                href: 'https://uq.edu.au',
+              },
+              {
+                label: 'UQ Law School',
+                href: 'https://law.uq.edu.au',
+              }
+            ],
+          },
+          {
+            title: 'Conference hosted by UQ Law School',
+            items: [
+              {
+                // Hard push from the left to manually align under title
+                html: '<div style="margin-left: 00px; margin-top: 00px;"><img src="img/uq_logo_dark.png" style="height: 95px"></div>',
+              },
+            ],
+          },
+          {
+            title: 'Contact',
+            items: [
+              {
+                label: 'Contact ALAA',
+                href: 'mailto:admin@alaa.asn.au',
+              },
+              {
+                label: 'Contact UQ Law School',
+                href: 'mailto:law@uq.edu.au',
+              },
+              {
+                label: 'Contact the Conference Project Team',
+                href: 'mailto:alaa2025conference@uq.edu.au',
+              },
+            ],
+          },
         ],
       },
       prism: {

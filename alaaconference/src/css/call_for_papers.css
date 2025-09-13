@@ -1,0 +1,32 @@
+.CFPHeader {
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(171, 149, 194);
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.CFPNextHeader {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:var(--uq-dark-background);
+    padding-bottom: 8px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.CFPImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: -7px;
+}

@@ -2,8 +2,21 @@
     max-width: 100%;
     margin: 0 auto;
     background-color: whitesmoke;
+    margin-bottom: 50px;
 }
 .HPHeading h1 {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px; 
+    padding-bottom: 0px; 
+}
+.HPHeading h2 {
+    text-align: center;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/* Centres the subthemes as we have seven of them! */
+.row {
+    justify-content: center;
 }

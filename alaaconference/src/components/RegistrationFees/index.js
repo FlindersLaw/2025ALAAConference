@@ -4,38 +4,25 @@ import styles from './styles.module.css';
 import './RegistrationFees.css';
 import {EOIButton, RegisterButton} from '@site/src/components/EOIButton';
 
-export const PaymentGatewayURL = 'https://pay.flinders.edu.au/BGL024';
 // export const PaymentGatewayURL = '/registration_closed';
 
 const FeeInfoList = [
   {
-    title: 'Early Career Academics Day (3 July 2024)',
-    description: (
-      <>
-        <p>
-          If you are not an early career academic you 
-          may still register for the ECA day but you must also register for 
-          the Conference.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: 'ALAA Conference (4 & 5 July 2024)',
+    title: 'ALAA Conference Registration',
     description: (
       <>
       <table className='registrationFeeTable'>
           <tr>
-              <th><del>Early Bird registration</del></th>
-              <td><del>$250.00</del></td>
+              <th>Early Bird registration</th>
+              <td>$350.00</td>
           </tr>
           <tr>
               <th>Regular Registration</th>
-              <td>$300.00</td>
+              <td>$400.00</td>
           </tr>
       </table>
       <p>
-      <strong>REGISTRATIONS CLOSE on 20 June 2024</strong>
+      <strong>EARLY BIRD REGISTRATIONS CLOSE on <i>16 May 2025</i></strong>
       </p>
       </>
     ),
@@ -47,13 +34,12 @@ const FeeInfoList = [
       <table className='registrationFeeTable'>
           <tr>
               <th>Gala Dinner</th>
-              <td>$140.00</td>
+              <td>$155.00</td>
           </tr>
       </table>
       <p>
-        The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
-        Stamford Plaza Hotel.
-      </p>
+        The Gala Dinner will be held on the evening of <strong>3&nbsp;July 2025</strong> at
+        the <b><i><a href="/gala_dinner">Customs House, Brisbane</a></i></b>.  </p>
       <p>
         If you have not yet registered for the 
         Gala Dinner please register below.
@@ -69,12 +55,7 @@ const FeeInfoList = [
 const ButtonInfoList = [
   {
     instructions: (
-      <RegisterButton registerURL='https://docassemble2.flinders.edu.au/interview?i=docassemble.2024ALAAConference:data/questions/eca.yml' buttonText='ECA Day Registration' />
-    ),
-  },
-  {
-    instructions: (
-      <RegisterButton registerURL={PaymentGatewayURL} buttonText='Conference and Gala Dinner Registration' />
+      <RegisterButton buttonText='Conference and Gala Dinner Registration' />
     )
   }
 ];
@@ -109,7 +90,7 @@ export function RegistrationFees() {
     <section className={styles.RFfeatures}>
       <div className="container">
         <div className="RFHeading">
-          <h1>Registration</h1>
+          <h1>Registration Fees</h1>
         </div>
         <div className="row">
           {FeeInfoList.map((props, idx) => (

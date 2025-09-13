@@ -24,8 +24,8 @@
 }
 
 .registerButton {
-    background-color: var(--flinders-yellow);
-    color: var(--flinders-blue);
+    background-color: var(--uq-dark-background);
+    color: white;
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
@@ -36,7 +36,7 @@
 
 .registerButton:hover {
     background-color: rgb(155, 218, 255);
-    color: var(--flinders-blue);
+    color: var(--uq-dark-background);
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .learnButton {
-    background-color: var(--flinders-blue);
+    background-color: var(--uq-dark-background);
     color: var(--flinders-yellow-hover);
     padding: 2px 10px;
     padding-bottom: 4px;
@@ -63,7 +63,7 @@
 
 .learnButton:hover {
     background-color: rgb(155, 218, 255);
-    color: var(--flinders-blue);
+    color: var(--uq-dark-background);
     text-decoration: none;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .programHeadingButton {
-    background-color: var(--flinders-blue);
+    background-color: var(--uq-dark-background);
     color: var(--flinders-yellow-hover);
     padding: 2px 10px;
     padding-bottom: 5px;
@@ -91,6 +91,6 @@
 
 .programHeadingButton:hover {
     background-color: rgb(155, 218, 255);
-    color: var(--flinders-blue);
+    color: var(--uq-dark-background);
     text-decoration: none;
 }

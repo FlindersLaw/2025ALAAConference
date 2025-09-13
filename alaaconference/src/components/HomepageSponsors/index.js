@@ -5,28 +5,31 @@ import './HomepageSponsors.css';
 
 const SponsorLogos = [
   {
-    thumbnail: 'img/sponsor_logos/lexisnexis.jpg',
-  },
-  {
-    thumbnail: 'img/sponsor_logos/cup.png',
-  },
-  {
-    thumbnail: 'img/sponsor_logos/leocussen.jpg',
+    thumbnail: 'img/sponsor_logos/cald.jpg',
   },
   {
     thumbnail: 'img/sponsor_logos/thomsonreuters.png',
   },
   {
-    thumbnail: 'img/sponsor_logos/cald.jpg',
+    thumbnail: 'img/sponsor_logos/dentons.png',
   },
   {
     thumbnail: 'img/sponsor_logos/oup.png',
+  },
+  {
+    thumbnail: 'img/sponsor_logos/cup.png',
+  },
+  {
+    thumbnail: 'img/sponsor_logos/college_of_law.png',
+  },
+  {
+    thumbnail: 'img/sponsor_logos/lexisnexis.jpg',
   },
 ];
 
 function Feature({thumbnail, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <img className={styles.SponsorfeatureSvg} role="img" src={thumbnail} />
       </div>

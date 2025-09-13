@@ -2,6 +2,9 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from'./EOIButton.modules.css'; // Importing the CSS file
 
+// URL to the payment gateway
+export const PaymentGatewayURL = 'https://payments.uq.edu.au/ALAA2025';
+
 export const EOIButton = () => {
   return (
     <div className={styles.buttonContainer}>
@@ -18,18 +21,28 @@ export const EOIButton = () => {
   );
 };
 
-// URL to internal registration URL (not payment gateway)
+/**
+ * A React functional component that renders a styled button linking to a specified URL.
+ *
+ * @function RegisterButton
+ * @param {Object} props - The properties passed to the component.
+ * @param {string} props.buttonText - The text to display on the button.
+ * @returns {JSX.Element} A styled button component that links to the provided URL.
+ */
 export function RegisterButton(props) {
   // console.log("registerURL:", props.registerURL);
   // console.log("buttonText:", props.buttonText);
   // console.log("props:", props);
   // console.log("theURL:", theURL);
-  let theURL = useBaseUrl(props.registerURL);
+
+  let theURL = useBaseUrl(PaymentGatewayURL);
   return (
     <div className={styles.buttonContainer}>
       <a
         href={theURL}
         className={styles.registerButton}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {props.buttonText}
       </a>
@@ -69,5 +82,36 @@ export function ProgramHeadingButton(props) {
     </div>
   );
 }
+
+export const CFPButton = () => {
+  return (
+    <div className={styles.buttonContainer}>
+      <a
+        href='/call_for_papers'
+        className={styles.registerButton}
+        rel='noopener noreferrer'
+      >
+        Call for Papers
+      </a>
+    </div>
+  );
+};
+
+// A buton that looks just like the register button but links to 
+// /registration on this website. The text should be "REGISTER NOW"
+export const RegisterNowButton = () => {
+  return (
+    <div className={styles.buttonContainer}>
+      <a
+        href='/registration'
+        className={styles.registerButton}
+        rel='noopener noreferrer'
+      >
+        REGISTER NOW
+      </a>
+    </div>
+  );
+}
+
 
 export default EOIButton;
